@@ -1,0 +1,30 @@
+# Workflow Status - Web Login with Google Auth (Mock)
+# This tracks progress through BMM methodology phases
+# Phase 3/4 (Implementation) is tracked separately in sprint-status.yaml
+
+generated: "2025-11-11"
+project: "Web Login with Google Auth (Mock)"
+project_type: "software"
+selected_track: "method"
+field_type: "greenfield"
+workflow_path: "method-greenfield.yaml"
+
+workflow_status: |
+  # Phase 0: Discovery (Optional)
+  brainstorm-project: docs/web-login-project-brainstorm.md
+  research: skipped
+  product-brief: skipped
+
+  # Phase 1: Planning
+  prd: docs/PRD.md
+  validate-prd: skipped
+  create-design: skipped
+
+  # Phase 2: Solutioning
+  create-architecture: docs/architecture.md
+  validate-architecture: skipped
+  solutioning-gate-check: docs/story-summary.md
+
+  # Phase 3: Implementation
+  sprint-planning: required
+  story-development: required
