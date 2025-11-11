@@ -1,2 +1,1 @@
-// Authentication components will be implemented in subsequent stories
-export {}
+export { default as LoginForm } from './LoginForm'
